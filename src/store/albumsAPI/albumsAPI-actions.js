@@ -1,14 +1,13 @@
 import axios from "axios";
-export const SET_ARTISTS = 'SET_ARTISTS';
-const API_URL_ARTISTS =
-    'https://api.jamendo.com/v3.0/artists/?client_id=e1ba0143&format=jsonpretty&fullcount=true&limit=20&name=&offset=38000';
+export const SET_ALBUM = 'SET_ALBUM';
+const API_URL_ALBUM = 'https://api.jamendo.com/v3.0/albums/?client_id=e1ba0143&format=jsonpretty&artist_name=';
 
-export const setArtists = (URL) => ({
-    type: SET_ARTISTS,
+export const setAlbum = (URL) => ({
+    type: SET_ALBUM,
     payload: URL
 })
 
-export const loadArtists = (url = API_URL_ARTISTS) => (dispatch) => {
-    axios.get(url)
-        .then(({data}) => dispatch(setArtists(data)))
+export const loadAlbums = (artist, url = API_URL_ALBUM) => (dispatch) => {
+    axios.get(url + artist)
+        .then(({data}) => dispatch(setAlbum(data)))
 }

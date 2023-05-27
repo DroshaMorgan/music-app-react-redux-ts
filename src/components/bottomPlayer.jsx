@@ -4,10 +4,13 @@ import playerRewind from "./player-rewind.svg";
 import playerPlay from "./player-play.svg";
 import playerForward from "./player-forward.svg";
 
-const BottomPlayer = ({bcgTitle, currentAudioPlay, changeCurrentTime,
-                          currentTimeAudioPlay, nextSong, prevSong,
-                          playMusic, pauseMusic, changeVolume, currentVolume
-}) => {
+const BottomPlayer = (
+    // {
+    //     bcgTitle, currentAudioPlay, changeCurrentTime,
+    //     currentTimeAudioPlay, nextSong, prevSong,
+    //     playMusic, pauseMusic, changeVolume, currentVolume
+    // }
+) => {
 
     return (
         <footer className="bottom-player">

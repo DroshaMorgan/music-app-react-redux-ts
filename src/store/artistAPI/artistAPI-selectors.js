@@ -1,1 +1,1 @@
-// export const selectChanges = (state) => state.paginationReducer;
+export const selectArtists = (state) => state.artistAPIReducer.results;

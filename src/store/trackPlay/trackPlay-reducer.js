@@ -1,8 +1,8 @@
-import {SET_TRACKS} from "./tracksAPI-actions";
+import {PLAY_TRACKS} from "./trackPlay-actions";
 
-export const tracksAPIReducer = (state=[] , {type, payload}) => {
+export const trackPlayReducer = (state= new Audio() , {type, payload}) => {
     switch (type) {
-        case SET_TRACKS:
+        case PLAY_TRACKS:
             return payload;
         default:
             return state;

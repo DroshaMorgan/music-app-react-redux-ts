@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2a6d501-606a-405f-b09d-d6262d6828ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/albums.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/artists.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/icon-site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/main-bcg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/muse-drones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/no-img-artist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/no-img-artist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/player-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/player-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/player-rewind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/tracks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bottomPlayer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/context.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useFetching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Albums.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Artists.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Tracks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/Router.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/albumsAPI/albumsAPI-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/albumsAPI/albumsAPI-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/albumsAPI/albumsAPI-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/artistAPI/artistAPI-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/artistAPI/artistAPI-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/artistAPI/artistAPI-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/trackPlay/trackPlay-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/trackPlay/trackPlay-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/trackPlay/trackPlay-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/tracksAPI/tracksAPI-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/tracksAPI/tracksAPI-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/tracksAPI/tracksAPI-selectors.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2MQGDIrzSDg44NtyzdSzuDlbPVY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../note-app-react" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Даня\GeekBrains и другая учёбка\ForGit\music-app-react-redux-ts\src" />
+      <recent name="D:\Даня\GeekBrains и другая учёбка\ForGit\music-app-react-redux-ts\src\store" />
+      <recent name="D:\Даня\GeekBrains и другая учёбка\ForGit\music-app-react-redux-ts\src\components" />
+      <recent name="D:\Даня\GeekBrains и другая учёбка\ForGit\music-app-react-redux-ts\src\store\artistAPI" />
+      <recent name="D:\Даня\GeekBrains и другая учёбка\ForGit\music-app-react-redux-ts\src\assets\imgs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2a6d501-606a-405f-b09d-d6262d6828ba" name="Default Changelist" comment="" />
+      <created>1677692272101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677692272101</updated>
+      <workItem from="1677692273478" duration="6137000" />
+      <workItem from="1677867305473" duration="39000" />
+      <workItem from="1677871246175" duration="2219000" />
+      <workItem from="1677873531882" duration="825000" />
+      <workItem from="1678211813518" duration="6428000" />
+      <workItem from="1678272452030" duration="9966000" />
+      <workItem from="1678359409448" duration="1375000" />
+      <workItem from="1679062644285" duration="9637000" />
+      <workItem from="1679142484565" duration="2746000" />
+      <workItem from="1679477867835" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,1 +1,1 @@
-export const selectArtists = (state) => state.artistAPIReducer.results;
+export const selectAlbums = (state) => state.albumsAPIReducer.results;

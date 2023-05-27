@@ -1,24 +1,16 @@
-import {CHANGE_API, CHANGE_SEARCH_API} from "./changeAPI-actions";
+import {SET_ARTISTS} from "./artistAPI-actions";
 
-const API_URL_POPULAR = "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_100_POPULAR_FILMS&page=";
+// const API_URL_POPULAR = "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_100_POPULAR_FILMS&page=";
+//
+// const initialState = {
+//     apiSearch: API_URL_POPULAR,
+//     apiAll: API_URL_POPULAR,
+// }
 
-const initialState = {
-    apiSearch: API_URL_POPULAR,
-    apiAll: API_URL_POPULAR,
-}
-
-export const changeAPIReducer = (state = initialState, {type, payload}) => {
+export const artistAPIReducer = (state=[] , {type, payload}) => {
     switch (type) {
-        case CHANGE_API:
-            return {
-                ...state,
-                apiAll: payload,
-            };
-        case CHANGE_SEARCH_API:
-            return {
-                ...state,
-                apiSearch: payload,
-            };
+        case SET_ARTISTS:
+            return payload;
         default:
             return state;
     }
