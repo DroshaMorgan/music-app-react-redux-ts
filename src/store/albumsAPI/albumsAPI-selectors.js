@@ -1,0 +1,1 @@
+export const selectArtists = (state) => state.artistAPIReducer.results;
